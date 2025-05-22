@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Successful - Gmail AI Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #4285F4;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .next-steps {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Authentication Successful</h1>
+    
+    <div class="success">
+        <p><strong>Success!</strong> You have successfully authenticated with Gmail. The application now has permission to access your Gmail account.</p>
+    </div>
+    
+    <div class="next-steps">
+        <h2>Next Steps</h2>
+        <p>You can now start the email processing service by running:</p>
+        <p><code>python -m gmail_ai_bot --process</code></p>
+        
+        <p>Or if you're using the Python API:</p>
+        <p><code>from gmail_ai_bot import main<br>main.run_process()</code></p>
+        
+        <p>The service will check for new emails at regular intervals and process them according to your configuration.</p>
+    </div>
+    
+    <h2>Configuration</h2>
+    <p>Make sure your <code>.env</code> file is properly configured with your preferences:</p>
+    <ul>
+        <li>LLM provider and model</li>
+        <li>Polling interval</li>
+        <li>User information for email signatures</li>
+    </ul>
+    
+    <p>You can close this window now. The authentication token has been saved.</p>
+</body>
+</html>

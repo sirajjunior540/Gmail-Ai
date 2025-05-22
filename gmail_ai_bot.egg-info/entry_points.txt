@@ -1,0 +1,2 @@
+[console_scripts]
+gmail-ai-bot = gmail_ai_bot.main:main

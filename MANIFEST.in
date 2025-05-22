@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include gmail_ai_bot/templates *.html
+recursive-include gmail_ai_bot *.json *.csv
