@@ -125,6 +125,11 @@ from gmail_ai_bot import auto_respond
 auto_respond(service, subject, body, category, message_id, sender_email)
 ```
 
+## PyPI Publishing
+
+This project is configured with GitHub Actions to automatically publish to PyPI when a new release is created.
+For setup instructions, see [PYPI_SETUP.md](PYPI_SETUP.md).
+
 ## License
 
 MIT

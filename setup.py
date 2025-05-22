@@ -7,11 +7,11 @@ setup(
     name="gmail-ai-bot",
     version="0.1.0",
     author="Gmail AI Bot Team",
-    author_email="example@example.com",
+    author_email="sirajjunior@gmail.com",
     description="An intelligent email assistant that automatically categorizes and responds to emails",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/gmail-ai-bot",
+    url="https://github.com/sirajjunior540/Gmail-Ai",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
